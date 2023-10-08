@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #2b2414 16.62%, #544c34 85.61%)
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.cabecalho-imagem{
+    height: 100px;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 20px;
+}
+
+.cabecalho-menu-item{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #81714a;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.conteudo{
+    border-top: 0.4px solid #2b2414;
+}
+
+.conteudo-servicos{
+    display: flex;
+}
